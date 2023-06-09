@@ -1,0 +1,49 @@
+.SignupContainer {
+  
+    flex-direction: column;
+    align-items: left;
+    padding-top: 10%;
+    margin-left: 40%;
+    height: 100%;
+    
+    padding: 5vw ;
+    position:relative; 
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+    }
+    
+
+
+.SignupContainer label{
+    display: flex;
+    text-align: center;
+    margin-top:15px; 
+    font-size: 17px;
+
+}
+
+.SignupContainer input{
+    padding-left: 10px;
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(210, 203, 203);
+    border-radius: 6px;
+    border-color:rgb(244, 240, 240);
+    box-sizing: border-box;
+} 
+
+
+.SignupContainer input[type=submit] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:flex;
+    color : white;
+    height: 40px;
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    border-color: blueviolet;
+    padding: 10px 120px;
+    font-size: 17px;
+   
+   }

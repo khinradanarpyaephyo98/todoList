@@ -1,0 +1,120 @@
+.TodoContainer{
+    background-color: white;
+    
+    position:absolute;
+    top:0;
+    bottom:0;
+    overflow-y:scroll;
+     /* position the top  edge of the element at the middle of the parent */
+    left: 30%; /* position the left edge of the element at the middle of the parent */
+
+}
+
+.main{
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.checked-item {
+    text-decoration: line-through;   
+  }
+
+input[type="checkbox"]:checked {
+    box-sizing: border-box;padding: 0;accent-color:blueviolet;
+}
+
+.upper{
+   display: flex;
+   padding: 0;
+   
+   max-width: 500px;
+  overflow: hidden;
+  margin:auto;
+  padding:0;
+  padding-left: 30px;
+}
+
+
+.btnLogout{
+  border: none;
+  color: gray;
+  background: none;
+  cursor:pointer;
+  font-size: 17px;
+}
+
+.btnLogout:focus{
+  color:red;
+}
+
+.btnClear{
+  color: gray;
+  border: none;
+  background: none;
+  margin-left: 100px;
+  cursor: pointer; 
+  font-size: 17px;
+  
+}
+
+.btnClear:focus{
+  color:green;
+}
+
+
+
+.navbar{
+  font-size:1.2rem;
+  padding-top:0rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0px;
+}
+
+.navbar .upper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.tasklist{
+  font-size:18px;
+}
+
+.todoInput{
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+.inputTask{
+ padding-right: 90px;
+ margin-right: 20px;
+ width: 190px;
+ height: 30px;
+ border: 2px solid rgb(210, 203, 203);
+  border-radius: 6px;
+  border-color:lightgray;
+  
+}
+.addBtn{
+  width: 95px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  margin-top: 20px;
+
+}
+
+.Bottom{
+  display: flex;
+  direction: row;
+  justify-content: center;
+ 
+}
